@@ -13,11 +13,6 @@ public class PrintInvertedBarChart {
                 max = arr[i];
             }
         }
-        int[] spaces = new int[n];
-        Arrays.fill(spaces, max);
-        for (int i = 0; i < arr.length; i++){
-            spaces[i] -= arr[i];
-        }
         for (int j = 0; j < max; j++){
             for (int i = 0; i < arr.length; i++){
                 if (arr[i] > 0){
