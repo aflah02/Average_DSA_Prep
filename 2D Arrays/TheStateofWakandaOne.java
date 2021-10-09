@@ -11,14 +11,17 @@ public class TheStateofWakandaOne {
                 matrix[i][j] = sc.nextInt();
             }
         }
-        int a = 0;
-        int b = 0;
-        while (a != n && b != m){
-            if (a < n){
-                a++;
+
+        for (int i = 0; i < m; i++){
+            if (i % 2 == 0){
+                for (int j = 0; j < n; j++){
+                    System.out.println(matrix[j][i]);
+                }
             }
-            if (a == n){
-                b++;
+            else{
+                for (int j = n-1; j >= 0; j--){
+                    System.out.println(matrix[j][i]);
+                }
             }
         }
     }
