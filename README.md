@@ -1,5 +1,7 @@
 # DSA
 
+Aha as usual got bored of daily prep and also kind of migrated to leetcode - https://leetcode.com/aflahkhan/
+
 A Repository where I commit my Daily Progress so that hopefully someday in the future I can look back and smile at this repository 
 
 ~(Ah is that cringe? Well nvm I'm still going to do it xD)~
