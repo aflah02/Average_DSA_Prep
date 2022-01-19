@@ -6,6 +6,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Patterns" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Function and Arrays (Binary Search)" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2D Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Leetcode contests" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AtCoderDP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PepcodingDP" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CF776" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CC Starters 22" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
