@@ -2,20 +2,20 @@ import itertools
 from bisect import bisect_left
 
 
-def LISSolver(input_list):
-    if len(input_list) == 0: 
-        return 0
-    end = [0 for i in range(len(input_list) + 1)]
-    length = 1 
-    end[0] = input_list[0]
-    for i in range(1, len(input_list)):
-        if input_list[i] > end[length-1]:
-            end[length] = input_list[i]
-            length += 1
-        else:
-            end[bisect_left(end, input_list[i], 0, length-1)] = input_list[i]
+# def LISSolver(input_list):
+#     if len(input_list) == 0: 
+#         return 0
+#     end = [0 for i in range(len(input_list) + 1)]
+#     length = 1 
+#     end[0] = input_list[0]
+#     for i in range(1, len(input_list)):
+#         if input_list[i] > end[length-1]:
+#             end[length] = input_list[i]
+#             length += 1
+#         else:
+#             end[bisect_left(end, input_list[i], 0, length-1)] = input_list[i]
 
-    return length
+#     return length
 
 def lengthOfLIS(nums):
     a=[]
