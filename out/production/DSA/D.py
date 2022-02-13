@@ -1,53 +1,67 @@
-s = "**|**|***|"
-queries = [[2,5],[5,9]]
-ls = []
-pre0 = queries[0][0]
-post0 = queries[0][1]
-pre1 = queries[1][0]
-post1 = queries[1][1]
-ls_pre = []
-ls_post = []
-precount = 0
-postcount = 0
-count1 = 0
-count2 = 0
-for i, val in enumerate(s[queries[0][0]: queries[0][1]]):
-    if val == "|":
-        precount+=1
-        ls_pre.append(-1)
-    else:
-        ls_pre.append(precount)
+import itertools
+from bisect import bisect_left
+
+
+# def LISSolver(input_list):
+#     if len(input_list) == 0: 
+#         return 0
+#     end = [0 for i in range(len(input_list) + 1)]
+#     length = 1 
+#     end[0] = input_list[0]
+#     for i in range(1, len(input_list)):
+#         if input_list[i] > end[length-1]:
+#             end[length] = input_list[i]
+#             length += 1
+#         else:
+#             end[bisect_left(end, input_list[i], 0, length-1)] = input_list[i]
+
+#     return length
+
+def lengthOfLIS(nums):
+    a=[]
+    for x in nums:
+
+        n=bisect_left(a,x)#n is index value in list
+        if n==len(a):#if index value is last then
+            a.append(x)
+        else:
+            a[n]=x
+    return len(a) 
+def getPermutations(lst):
+    if len(lst) == 0:
+        return []
+    if len(lst) == 1:
+        return [lst]
+    l = []
+    for i in range(len(lst)):
+       m = lst[i]
+       remainingList = lst[:i] + lst[i+1:]
+       for p in getPermutations(remainingList):
+           l.append([m] + p)
+    return l
     
-for i, val in enumerate(reversed(s[queries[0][0]: queries[0][1]])):
-    if val == "|":
-        postcount+=1
-        ls_post.append(-1)
-    else:
-        ls_post.append(postcount)
-ls_post = list(reversed(ls_post))
-ls_pre1 = []
-ls_post1 = []
-precount1 = 0
-postcount1 = 0
-for i, val in enumerate(s[queries[1][0]: queries[1][1]]):
-    if val == "|":
-        precount1+=1
-        ls_pre1.append(-1)
-    else:
-        ls_pre1.append(precount1)
+for i in range(int(input())):
+    x = int(input())
+    ls = []
+    while (x > 0):
+        ls.append(x)
+        x-=1
+    ls2 = getPermutations(ls)
+    k = False
+    maxsofar = 0
+    maxind = 0
+    for i in range(len(ls2)):
+        t = lengthOfLIS(ls2[i])
+        u = lengthOfLIS(ls2[i][::-1])
+        if t == u:
+            if t > maxsofar:
+                maxsofar = t
+                maxind = i
+                k = True 
+    if (k):
+        print('YES')
+        print(*ls2[maxind], sep = " ")
+        continue
+    print('NO')
     
-for i, val in enumerate(reversed(s[queries[1][0]: queries[1][1]])):
-    if val == "|":
-        postcount1+=1
-        ls_post1.append(-1)
-    else:
-        ls_post1.append(postcount1)
-print(ls_pre, ls_post)
-ls_post1 = list(reversed(ls_post1))
-for i in range(len(ls_pre)):
-    if (ls_pre[i] > 0 and ls_post[i]>0):
-        count1+=1
-for i in range(len(ls_pre1)):
-    if (ls_pre1[i] > 0 and ls_post1[i]>0):
-        count2+=1
-print(count1, count2)
+    

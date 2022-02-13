@@ -1,3 +1,4 @@
+import math
 import string
 import sys
 def isSubsequence(s, t):
@@ -28,7 +29,7 @@ for i in range(int(input())):
         print('here')
         if (isSubsequence(x, s)):
             print('her2')
-            print(m-indexes[i+1]+indexes[i]+1)
+            print(abs(m-n))
             continue
     else:
         for i in range(len(indexes)-1):
