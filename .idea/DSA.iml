@@ -12,7 +12,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CF776" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CC Starters 22" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BiWeekly 70" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/StriverRecursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StriverRecursionAndBacktracking" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
