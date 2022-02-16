@@ -1,7 +1,8 @@
 # DSA
 
 Aha as usual got bored of daily prep and also kind of migrated to leetcode - https://leetcode.com/aflahkhan/
-Also sometimes I solve stuff on GFG - https://auth.geeksforgeeks.org/user/aflahkhan2020/practice/
+Also sometimes I solve stuff on GFG - https://auth.geeksforgeeks.org/user/aflahkhan2020/practice/ 
+More recently I've realized that it's easy to gain rating on CodeChef so I give selective contests to gain points and artifically boot my ego with stars which have no value practically - https://www.codechef.com/users/aflah09
 
 A Repository where I commit my Daily Progress so that hopefully someday in the future I can look back and smile at this repository 
 
