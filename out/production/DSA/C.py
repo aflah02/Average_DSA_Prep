@@ -1,12 +1,13 @@
-import math
 for i in range(int(input())):
-    x = int(input())
-    if (x % 2 == 1):
-        print(0)
+    n,k,x = map(int, input().split())
+    if (x > k):
+        print(-1)
         continue
-    t = x
-    while (t % 2 == 0):
-        t = t/2
-    factor = t
-    k = math.log(x/t,2)
-    print(int(k))
+    remaining = n % x
+    base_copies = n//x
+    # print('REM', remaining)
+    # print('B', base_copies)
+    ls_base = [i for i in range(x)]
+    ls_base = ls_base * base_copies
+    ls_base += ls_base[:remaining]
+    print(*ls_base, sep = " ")
