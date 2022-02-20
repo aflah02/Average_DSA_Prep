@@ -91,18 +91,6 @@ public class Lec11Triangle {
                 dp.get(i).set(j, Math.min(shiftedUp, justUp));
             }
         }
-        for (List<Integer> ls: dp){
-            for (int i: ls){
-                System.out.print(i + " ");
-            }
-            System.out.println();
-        }
-        int minFound = Integer.MAX_VALUE;
-        for (int i: dp.get(n-1)){
-            if (i < minFound){
-                minFound = i;
-            }
-        }
-        return minFound;
+        return Collections.min(dp.get(n-1));
     }
 }
