@@ -6,6 +6,8 @@ Also sometimes I solve stuff on GFG - https://auth.geeksforgeeks.org/user/aflahk
 
 More recently I've realized that it's easy to gain rating on CodeChef so I give selective contests to gain points and artifically boost my ego with stars which have no value practically - https://www.codechef.com/users/aflah09
 
+Recently I've been solving some stuff on Code Studio (mostly DP) - https://www.codingninjas.com/codestudio/profile
+
 A Repository where I commit my ~Daily~ Progress so that hopefully someday in the future I can look back and smile at this repository 
 
 ~(Ah is that cringe? Well nvm I'm still going to do it xD)~
