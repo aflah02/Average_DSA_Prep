@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Lec25LongestCommonSubsequence {
     // https://leetcode.com/problems/longest-common-subsequence/
     public static void main(String[] args) {
-        System.out.println(longestCommonSubsequence("abcde", "ace"));
+        System.out.println(longestCommonSubsequence("ap", "defg"));
     }
     public static int longestCommonSubsequence(String text1, String text2) {
 //        int[][] memArray = new int[text1.length()][text2.length()];
