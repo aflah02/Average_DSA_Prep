@@ -23,7 +23,7 @@ public class Lec1CARSELL {
                     cost += revarr[i] - i;
                 }
             }
-            System.out.println(cost % (Math.pow(10,9) + 7));
+            System.out.println((int) (cost % (Math.pow(10,9) + 7)));
             t--;
         }
     }
