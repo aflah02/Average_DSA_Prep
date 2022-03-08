@@ -17,6 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CC Starters Jan 26" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HashCode" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FrazGreedyCodeChef" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ADA Implementations" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

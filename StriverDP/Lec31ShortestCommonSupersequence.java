@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-
-public class Lec26PrintLongestCommonSubsequence {
+public class Lec31ShortestCommonSupersequence {
     public static void main(String[] args) {
-        System.out.println(solveDP("cabac", "abac"));
+
     }
     static String solveDP(String text1, String text2){
         int[][] dp = new int[text1.length()+1][text2.length()+1];
@@ -34,19 +32,29 @@ public class Lec26PrintLongestCommonSubsequence {
             }
             else{
                 if (dp[n-1][m] > dp[n][m-1]){
+                    s.append(text1.charAt(n-1));
                     n--;
                 }
                 else{
+                    s.append(text2.charAt(m-1));
                     m--;
                 }
             }
         }
-        String rev = s.toString();
-        String ret = "";
-        for (int i = rev.length()-1; i >= 0; i--){
-            ret += rev.charAt(i);
+        while (n > 0){
+            s.append(text1.charAt(n-1));
+            n--;
         }
-        return ret;
-
+        while (m > 0){
+            s.append(text2.charAt(m-1));
+            m--;
+        }
+        String rev = s.toString();
+        StringBuilder ret = new StringBuilder();
+        for (int i = rev.length()-1; i >= 0; i--){
+            ret.append(rev.charAt(i));
+        }
+        return ret.toString();
     }
 }
+
