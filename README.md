@@ -8,6 +8,8 @@ More recently I've realized that it's easy to gain rating on CodeChef so I give 
 
 Recently I've been solving some stuff on Code Studio (mostly DP) - https://www.codingninjas.com/codestudio/profile/fb4f9812-46a2-45d0-b064-3db03bf2dc91
 
+I've also now started solving Graph Questions on NADOS - https://nados.io/profile/aea56d1a-8274-4ab6-876c-02c8c306433b
+
 A Repository where I commit my ~Daily~ Progress so that hopefully someday in the future I can look back and smile at this repository 
 
 ~(Ah is that cringe? Well nvm I'm still going to do it xD)~
