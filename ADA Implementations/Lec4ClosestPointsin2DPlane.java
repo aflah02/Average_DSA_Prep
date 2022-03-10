@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-
+// THIS IS WRONG
 public class Lec4ClosestPointsin2DPlane {
     // Reference - https://www.youtube.com/watch?v=6u_hWxbOc7E
     public static void main(String[] args) {
