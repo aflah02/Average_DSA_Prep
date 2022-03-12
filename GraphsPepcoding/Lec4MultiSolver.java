@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Lec3MultiSolver {
+public class Lec4MultiSolver {
     static class Edge {
         int src;
         int nbr;
