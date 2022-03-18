@@ -33,7 +33,6 @@ public class Lec5RottingOranges {
             this.col = col;
             this.time = time;
         }
-
     }
     static int[][] dirs = {{0,1},{0,-1},{1,0},{-1,0}};
     public static int orangesRotting(int[][] grid) {
