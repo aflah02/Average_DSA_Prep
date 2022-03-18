@@ -20,6 +20,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ADA Implementations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GraphsPepcodingLevel1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GraphsPepcodingLevel2" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
