@@ -23,6 +23,8 @@
       <sourceFolder url="file://$MODULE_DIR$/GraphsPepcodingLevel2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StriverSheet" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CSESGraphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LCBW80" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generic Tree" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

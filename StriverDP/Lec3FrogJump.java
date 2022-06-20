@@ -1,4 +1,5 @@
 public class Lec3FrogJump {
+    // https://www.codingninjas.com/codestudio/problems/frog-jump_3621012?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos
     public static void main(String[] args) {
         int n = 6;
         int[] heights = new int[]{4, 8, 3, 10, 4, 4 };
