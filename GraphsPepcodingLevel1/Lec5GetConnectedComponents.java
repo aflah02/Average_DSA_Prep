@@ -44,7 +44,9 @@ public class Lec5GetConnectedComponents {
             }
         }
 
-        System.out.println(comps);
+        for (ArrayList<Integer> comp: comps){
+            System.out.println(comp);
+        }
     }
 
     static void drawTree(ArrayList<Integer> comp, Boolean[] visited, ArrayList<Edge>[] graph, int src){

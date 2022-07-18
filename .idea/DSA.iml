@@ -25,6 +25,8 @@
       <sourceFolder url="file://$MODULE_DIR$/CSESGraphs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LCBW80" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generic Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LCBW81" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MSFT" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
